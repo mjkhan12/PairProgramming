@@ -89,7 +89,6 @@ public class DoggoCompetition {
 				} else {
 					finishPlaces = finishPlaces + "rd, ";
 				}
-
 				break;
 			default:
 				finishPlaces = finishPlaces + "th, ";
@@ -141,8 +140,8 @@ public class DoggoCompetition {
 			}
 		}
 		for (int i = 0; i < placeListend.size(); i++) {
+			
 			System.out.print(placeListend.get(i));
 		}
 	}
-
 }
