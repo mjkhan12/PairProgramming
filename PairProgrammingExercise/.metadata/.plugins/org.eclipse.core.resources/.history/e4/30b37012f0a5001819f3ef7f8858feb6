@@ -1,0 +1,24 @@
+
+public class Factorial {
+	public static void main(String args[]) {
+	
+		
+		factorial(9);
+	}
+	
+	public static int factorial (int number) {
+		int i = 0 ; 
+		boolean factorFound  = false; 
+		 
+		
+		while (!factorFound) {
+			System.out.println("dhewhdwhfuiwhufhwuiefhuiwefh");
+			
+		}
+		
+		
+		return 0;
+	}
+
+	
+}

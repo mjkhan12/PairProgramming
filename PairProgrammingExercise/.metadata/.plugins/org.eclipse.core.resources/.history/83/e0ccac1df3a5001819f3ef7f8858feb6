@@ -1,0 +1,33 @@
+
+public class Factorial {
+	public static void main(String args[]) {
+		
+		Factorial fac = new Factorial();
+		System.out.println(fac.factorial(120));
+	}
+	
+	public String factorial (double number) {
+		double i = 2 ; 
+		boolean factorFound  = false; 
+		String result = "none"; 
+		 
+		while (!factorFound) {
+			number = number/i;
+			if (number == 1 ) {
+				result = (int)i + "!";
+				factorFound  = true;
+			} 
+			else if(number == 0) {
+				result = "none";
+				factorFound  = true;
+			}else {
+				i++;
+			}
+		}
+		
+		
+		return result;
+	}
+
+	
+}

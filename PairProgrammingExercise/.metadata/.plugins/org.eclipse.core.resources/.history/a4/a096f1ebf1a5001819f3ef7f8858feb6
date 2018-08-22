@@ -1,0 +1,27 @@
+
+public class Factorial {
+	public static void main(String args[]) {
+	
+		
+		factorial(9);
+	}
+	
+	public static int factorial (int number) {
+		int i = 0 ; 
+		boolean factorFound  = false; 
+		 
+		
+		while (!factorFound) {
+			for (int x = 0; x< 3 ; x++) {
+			System.out.println("dhewhdwhfuiwhufhwuiefhuiwefh");
+			}
+			
+			factorFound  = true;
+		}
+		
+		
+		return 0;
+	}
+
+	
+}
