@@ -3,12 +3,12 @@ public class Factorial {
 	public static void main(String args[]) {
 		
 		Factorial fac = new Factorial();
-		System.out.println(fac.factorial(18));
+		System.out.println(fac.factorial(3628800));
 	}
 	
 	public String factorial (double number) {
 		double i = 2 ; 
-		boolean factorFound = false;  
+		boolean factorFound  = false; 
 		String result = "none"; 
 		 
 		while (!factorFound) {

@@ -8,7 +8,7 @@ public class Factorial {
 	
 	public String factorial (double number) {
 		double i = 2 ; 
-		boolean factorFound = false;  
+		boolean factorFound; 
 		String result = "none"; 
 		 
 		while (!factorFound) {
